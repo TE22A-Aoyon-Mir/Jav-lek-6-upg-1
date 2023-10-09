@@ -28,5 +28,19 @@ public class App {
         System.out.println(fält[0]<fält[1]);
         System.out.println("fält[0]==fält[2] är: ");
         System.out.println(fält[0]==fält[2]);
+
+        //c
+        System.out.println("Del c");
+        System.out.println("Ange ett heltal");
+        int tal3 = t.nextInt();
+        int tal3r = tal3;
+        tal3+=7;
+        tal3*=2;
+        tal3-=6;
+        tal3/=2;
+        tal3+=3;
+        tal3-=tal3r;
+        System.out.println("Med operatorerna blir heltalen: ");
+        System.out.println(tal3==7);
     }
 }
